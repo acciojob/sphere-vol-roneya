@@ -5,7 +5,7 @@ var r = document.getElementById("radius");
 function volume_sphere() {
 
 event.preventDefault();
-myInput.value = Math.PI*(4/3)*Math.pow(r.value, 3);
+myInput.value = Math.abs(Math.PI*(4/3)*Math.pow(r.value, 3));
 
 } 
 
